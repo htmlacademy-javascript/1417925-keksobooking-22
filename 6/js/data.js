@@ -37,7 +37,7 @@ const URL_APARTMENT_PHOTOS = [
   'http://o0.github.io/assets/images/tokyo/hotel2.jpg',
   'http://o0.github.io/assets/images/tokyo/hotel3.jpg',
 ];
-const APARTMENT_COUNT = 1;
+const APARTMENT_COUNT = 10;
 
 const createApartment = () => {
   let locationX = getRandomFloat(35.65000, 35.70000);
