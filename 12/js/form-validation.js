@@ -44,7 +44,6 @@ housingType.addEventListener('change', () => {
 timeForm.addEventListener('change', (evt) => {
   checkInTime.value = evt.target.value;
   checkOutTime.value = evt.target.value;
-  return true;
 });
 
 titleAd.addEventListener('input', () => {

@@ -44,7 +44,7 @@ const mainMarker = L.marker(
 mainMarker.on('move', (evt) => {
   let chosenAddress = evt.target.getLatLng();
   const address = document.querySelector('#address');
-  address.value = `${(chosenAddress.lat).toFixed(5)}, ${(chosenAddress.lng).toFixed(5)}`; //
+  address.value = `${(chosenAddress.lat).toFixed(5)}, ${(chosenAddress.lng).toFixed(5)}`;
 });
 
 const renderMapMarkers = (serverData) => {
